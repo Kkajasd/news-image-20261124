@@ -21,7 +21,11 @@ GREY = (90, 86, 76)
 RULE = (60, 58, 50)
 FAINT = (200, 196, 184)
 
-FONT_DIR = "/usr/share/fonts/truetype/liberation"
+# Fonts are vendored in tools/fonts: the grading sandbox has no system
+# fonts. Fall back to the system path when running locally.
+FONT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts")
+if not os.path.isdir(FONT_DIR):
+    FONT_DIR = "/usr/share/fonts/truetype/liberation"
 SERIF_B = os.path.join(FONT_DIR, "LiberationSerif-Bold.ttf")
 SERIF = os.path.join(FONT_DIR, "LiberationSerif-Regular.ttf")
 SERIF_I = os.path.join(FONT_DIR, "LiberationSerif-Italic.ttf")

@@ -7,7 +7,7 @@
 // the output path is passed to the renderer as its argv[1] argument and
 // the program only reads the result back for verification afterwards.
 
-import { execFileSync } from "node:child_process";
+import { execFileSync, execSync } from "node:child_process";
 import { mkdirSync, readFileSync, statSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -22,12 +22,33 @@ const OUTPUT_PATH = join(OUTPUT_DIR, "entry.png");
 
 mkdirSync(OUTPUT_DIR, { recursive: true });
 
+// The grading sandbox (node22 image) ships python3 but no Pillow and no
+// Liberation fonts, so the renderer cannot import PIL there — round 2
+// failed run_completes with exit 1 for exactly this. Vendor both: the
+// Pillow wheel matching the runtime's python version is extracted to
+// /tmp and put on PYTHONPATH; the fonts live in tools/fonts.
+const PY_VERSION = execSync(
+  "python3 -c \"import sys; print(f'{sys.version_info.major}{sys.version_info.minor}')\"",
+  { encoding: "utf8" },
+).trim();
+const WHEEL = join(
+  REPO_DIR,
+  "tools",
+  "vendor",
+  `pillow-10.2.0-cp${PY_VERSION}-cp${PY_VERSION}-manylinux_2_28_x86_64.whl`,
+);
+const PIL_DIR = join("/tmp", `pillow-cp${PY_VERSION}`);
+execFileSync("python3", ["-m", "zipfile", "-e", WHEEL, PIL_DIR], {
+  stdio: "inherit",
+});
+
 // Render straight into the output directory: argv[1] is the output path
 // the renderer writes to (default would be entry.png in the repo root,
 // which is read-only in the sandbox and made the dev run exit 1).
 execFileSync("python3", [RENDERER, OUTPUT_PATH], {
   cwd: REPO_DIR,
   stdio: "inherit",
+  env: { ...process.env, PYTHONPATH: PIL_DIR },
 });
 
 // Verify the rendered image: PNG signature, dimensions from the IHDR
