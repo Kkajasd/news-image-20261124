@@ -1,55 +1,35 @@
-# Sources — The World Today, Tuesday 24 November 2026
+# Sources — The World Today, Tuesday 24 November 2026 (rebuild, v2 layout)
 
-Every story on the front page happened, or was first reported, on Tuesday, 24 November 2026. One line per story: headline — outlet, date.
+Every story on the front page happened, or was first reported, on Tuesday, 24 November 2026. One line per story: headline — outlet, date. This rebuild uses a different story selection and layout from the original 40-story front page; none of the stories below appear in it.
+
+## Hero lead
+
+- Ukraine sinks Russian warship off Libya — Reuters (Ukraine insists attack on Russian ships in Libya was self-defence; Reuters podcast "Huang's return, Ukraine war spreads to Libya"), 24 Nov 2026
 
 ## Leads
 
-- Dow tops 50,000 as Wall St splits — Investopedia (Markets News, Nov. 24, 2026), 24 Nov 2026
-- Sanofi to buy Insmed for $41bn — The Best News Network, 24 Nov 2026
-- Strikes kill Hamas security chief — Just Security (Early Edition: November 24, 2026), 24 Nov 2026
+- Three tankers hit by mines in Hormuz — IRNA via Babypips (Financial & Forex Market Recap: Nov. 24, 2026), 24 Nov 2026
+- US readies tariff probe on 16 partners — Reuters via Morningstar (Dow Jones Top Markets Headlines at 7 AM ET), 24 Nov 2026
+- GPT-6.2 Sol becomes ChatGPT default — dev.to (Dev News Digest), 24 Nov 2026
 
 ## World
 
-- Zaporizhzhia flats hit overnight — Just Security (Early Edition: November 24, 2026), 24 Nov 2026
-- Russian jets enter Seoul air zone — Just Security (Early Edition: November 24, 2026), 24 Nov 2026
-- NATO vows to defend space — The Global Eye (Global news, 24 November 2026), 24 Nov 2026
-- Germany first into Ukraine's Delta — The Global Eye (Global news, 24 November 2026), 24 Nov 2026
-- Vance and Rubio meet Qatar PM — Just Security (Early Edition: November 24, 2026), 24 Nov 2026
-- Baghdad orders Kurdish oilfields run — The Global Eye (Global news, 24 November 2026), 24 Nov 2026
-- Fighting traps Ebola teams in DRC — The Global Eye (Global news, 24 November 2026), 24 Nov 2026
-- UN seeks Libya port attack probe — The Global Eye (Global news, 24 November 2026), 24 Nov 2026
-- Quake shakes Nepal and Kathmandu — Growentix (Taplejung earthquake, 5.6-magnitude), 24 Nov 2026
-- Car bomb rocks Villavicencio — Horizon (World news and markets for 24 November 2026), 24 Nov 2026
-- Pakistan astronaut bound for Tiangong — Horizon (World news and markets for 24 November 2026), 24 Nov 2026
-- Fourteen back Rohingya ruling — Horizon (World news and markets for 24 November 2026), 24 Nov 2026
+- Zelenskyy: Ukraine needs $125bn in 2027 — Reuters, 24 Nov 2026
+- Lukashenko offers to fly with Zelenskyy to Moscow — Reuters, 24 Nov 2026
+- UK warns of Russian sabotage threat — Reuters, 24 Nov 2026
+- Norway–Ukraine expand anti-drone pact — Reuters, 24 Nov 2026
+- Moscow accuses Estonia of hostile acts — Reuters (podcast "Huang's return, Ukraine war spreads to Libya"), 24 Nov 2026
+- Hungary's Magyar to meet Zelenskyy — Reuters, 24 Nov 2026
 
-## Markets & Americas
+## Markets, Tech & Sport
 
-- Dell reports record AI backlog — Instagram / Market Buzz HQ (US market recap, 24 Nov 2026), 24 Nov 2026
-- CrowdStrike in $44bn Zscaler deal — LinkedIn (Daily AI News Brief, 24 November 2026), 24 Nov 2026
-- Nvidia board backs Huang return — EkoProtec (news digest, 24 November 2026) and IQMIA (Worldwide News Summary, 2026-11-24), 24 Nov 2026
-- US confidence at 21-month high — Instagram / Market Buzz HQ (US market recap, 24 Nov 2026), 24 Nov 2026
-- Singapore grows 6.1% in Q3 — The Best News Network, 24 Nov 2026
-- Bitcoin slides below $60,000 — Facebook / VossReport (Tuesday closing brief, 24 Nov 2026), 24 Nov 2026
-- Dollar General suit spans 30 states — The Best News Network, 24 Nov 2026
-- UK retail sales beat forecasts — The Best News Network, 24 Nov 2026
-- Trump orders death-penalty push — Just Security (Early Edition: November 24, 2026), 24 Nov 2026
-- Pentagon faults Canada on defence — Just Security (Early Edition: November 24, 2026), 24 Nov 2026
-- Measles claims ninth in Pennsylvania — Horizon (World news and markets for 24 November 2026), 24 Nov 2026
-- Mexico to try 'El Chapo Isidro' — Horizon (World news and markets for 24 November 2026), 24 Nov 2026
+- Canada's Macklem hints at rate rises — Babypips (Financial & Forex Market Recap: Nov. 24, 2026), 24 Nov 2026
+- Germany's Ifo beats forecasts — Babypips (Financial & Forex Market Recap: Nov. 24, 2026), 24 Nov 2026
+- China suspends export curbs to US — Morningstar (Dow Jones Top Markets Headlines at 7 AM ET), 24 Nov 2026
+- Australia inflation jumps to 4.9% — Morningstar (Dow Jones Top Markets Headlines at 7 AM ET), 24 Nov 2026
+- Google Search adds Personal Intelligence — AI Briefing (aibriefing.dev, daily roundup), 24 Nov 2026
+- English clubs held in Europe — UEFA.com (Champions League Matchday 5 results) and Reuters, 24 Nov 2026
 
-## Technology, Sport & Life
+## The day in numbers (strip)
 
-- Claude 'proves' VP ≠ VNP — AI Weekly (AI News for November 24, 2026), 24 Nov 2026
-- Gemini agents cut quantum costs 290× — AI Weekly (AI News for November 24, 2026), 24 Nov 2026
-- Anthropic launches Claude Ship — AI Weekly (AI News for November 24, 2026), 24 Nov 2026
-- Claude misuse scan goes to beta — DDS Boston (AI News for Vibe Coders, November 24, 2026), 24 Nov 2026
-- AI brings few layoffs, study finds — AI Weekly (AI News for November 24, 2026), 24 Nov 2026
-- Meta's Muse reaches the UK — LinkedIn (Daily AI News Brief, 24 November 2026), 24 Nov 2026
-- Amazon buys Decart chip software — SXF Brief (AI News Nov 24, 2026), 24 Nov 2026
-- OpenAI and Cisco launch Shirudo — SXF Brief (AI News Nov 24, 2026), 24 Nov 2026
-- DeepMind sets 'Humanity's First Exam' — My Industry News (Wrap Up the Day in Tech, November 24, 2026), 24 Nov 2026
-- States sue SpaceX over Grok images — IQMIA (Worldwide News Summary, 2026-11-24), 24 Nov 2026
-- Madrid rout PSV 5–1 in Europe — SuperSport Football / TNT Sports (Champions League results, 24 Nov 2026), 24 Nov 2026
-- Cyclone Akvan drives 80,000 to safety — The Best News Network, 24 Nov 2026
-- Pilgrims mark Guru Nanak's 557th — The Best News Network, 24 Nov 2026
+- S&P 500 7,206 (−0.7%), gold $3,553 (−2.3%), WTI crude $82.53 (+1.4%), USD/CAD 1.4269 (−0.7%) — Babypips (Financial & Forex Market Recap: Nov. 24, 2026), 24 Nov 2026
